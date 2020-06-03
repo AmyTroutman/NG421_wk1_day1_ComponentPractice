@@ -39,3 +39,4 @@ export default [{
     task: 'Vendor Relations',
     date: '3/6/2017'
   }];
+
