@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TaskItemComponent implements OnInit {
 
- @Input() public taskItem: any[] = [];
+  @Input() taskItem = {task: '', date: ''};
+
 
   constructor() { }
 
